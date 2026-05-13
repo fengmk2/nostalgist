@@ -1,4 +1,4 @@
 dangerouslyAllowAllBuilds: true
 minimumReleaseAgeExclude:
   - vite-plus
-  - "@voidzero-dev/*"
+  - '@voidzero-dev/*'
