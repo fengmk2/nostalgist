@@ -265,7 +265,7 @@ export function activate(mod: typeof Nostalgist_) {
 
   renderButtons()
 
-  document.body.addEventListener('click', async function listener({ target }) {
+  document.body.addEventListener('click', async ({ target }) => {
     if (!(target instanceof HTMLButtonElement && target.textContent)) {
       return
     }
